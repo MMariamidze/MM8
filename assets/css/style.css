@@ -1,14 +1,15 @@
 body{
     margin: 0;
-    background-image:url(../img/49-wallpapers-animated-gifs-on-wallpapersafari.gif);
-    background-size: cover;
+    background: linear-gradient(90deg, rgba(9,4,36,1) 26%, rgba(36,23,96,1) 49%, rgba(5,18,46,1) 80%);
+}
+.logo{
+    padding-top: 1em;
 }
 .custom-tog{
     background-color:blueviolet !important ;
 }
 .borderYtoX{
     font-family: Raleway;
-	padding: 3em 3em;
 	text-align: center;
 }
 .custom-link{
@@ -46,15 +47,17 @@ body{
 }
 .custom-link:hover{
     text-decoration: none;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    background: -webkit-linear-gradient(0deg,#17ef97 -5.04%,#6084ff 46.01%,#d324f7 96.01%);
+    background-image: -webkit-linear-gradient(0deg, rgb(23, 239, 151) -5.04%, rgb(96, 132, 255) 46.01%, rgb(211, 36, 247) 96.01%);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
 }
 .button_login, .button_wallet{
+    height: 3em;
     color: blueviolet;
     border: 2px solid transparent;
-    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image: -webkit-linear-gradient(0deg, rgb(23, 239, 151) -5.04%, rgb(96, 132, 255) 46.01%, rgb(211, 36, 247) 96.01%);
     border-radius: 5px;
     margin-left: 15px;
     border-image-slice: 1;
@@ -68,7 +71,6 @@ body{
 .button_login:visited, .button_wallet:visited{
     color: palevioletred;
 }
-
 .button_login{
     margin-left: 100px;
 }
@@ -83,17 +85,17 @@ section{
 hr{
     background: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
 }
-h1, p{
+h1, .h4{
     margin-top: 30px;
     font-family:'Montserrat', sans-serif;
-    color: aliceblue;
+    color: white;
 }
 .custom-col{
     color: blueviolet;
     border: 2px solid transparent;
     height: 150px;
     padding: 10px;
-    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image: -webkit-linear-gradient(0deg, rgb(23, 239, 151) -5.04%, rgb(96, 132, 255) 46.01%, rgb(211, 36, 247) 96.01%);
     border-radius: 10px;
     border-image-slice: 1;
     text-align: center;
@@ -104,17 +106,14 @@ h1, p{
     text-align: center;
     font-family:'Montserrat', sans-serif;
     color: white;
-    font-size: 30px;
+   
     font-weight: 800;
 }
-.custom-media{
-    display: inline;
-    width: 50px;
-    height: 50px;
-    left: 780px;
-    top: 44px;
-    margin-left: 12px;
-    border-radius: 1px;
+.custom-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
 }
 h6{
     font-family:'Montserrat', sans-serif;
@@ -123,10 +122,7 @@ h6{
     font-size: 18px;
     line-height: 24px;
     color: white;
-}
-.a-2:hover, .a-2:link, .a-2:visited .a-2:active {
-    text-decoration: none;
-    color: blueviolet;
+    text-align: center;
 }
 .copyright{
     font-family: 'Open Sans';
@@ -137,6 +133,7 @@ h6{
     color: blueviolet;
     flex: none;
     order: 1;
+    text-align: center;
 }
 footer{
     margin-top: 90px;
